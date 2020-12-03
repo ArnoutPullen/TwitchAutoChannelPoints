@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Twitch - Auto Channel Points",
+    "description": "Automatic clicks the reward button for channel points.",
+    "version": "1",
+    "author": "Arnout Pullen",
+    "content_scripts": [
+        {
+            "js": [
+                "sites/twitch/twitch.js"
+            ],
+            "matches": [
+                "https://*.twitch.tv/*"
+            ]
+        }
+    ],
+    "icons": {
+        "128": "assets/icons/icon-128x128.png",
+        "16": "assets/icons/icon-16x16.png",
+        "32": "assets/icons/icon-32x32.png",
+        "48": "assets/icons/icon-48x48.png"
+    }
+}
