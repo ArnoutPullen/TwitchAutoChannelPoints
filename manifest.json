@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Twitch - Auto Channel Points",
     "description": "Automatic clicks the reward button for channel points.",
-    "version": "1",
+    "version": "1.0.1",
     "author": "Arnout Pullen",
     "content_scripts": [
         {
