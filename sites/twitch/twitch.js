@@ -1,6 +1,6 @@
 var interval = setInterval(function () {
 
-    var button = document.querySelector('.community-points-summary .tw-z-above button.tw-button');
+    var button = document.querySelector('.VGQNd');
 
     if (button) {
         button.click();
