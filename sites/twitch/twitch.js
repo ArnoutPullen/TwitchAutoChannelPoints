@@ -1,11 +1,15 @@
-var interval = setInterval(function () {
+var interval = setInterval(function() {
+    var pointsSummary = document.querySelector(".community-points-summary");
 
-    var button = document.querySelector('.VGQNd');
+    if (pointsSummary) {
+        var buttons = pointsSummary.querySelectorAll("button");
 
-    if (button) {
-        button.click();
+        if (buttons) {
+            if (buttons.length > 1) {
+                buttons[1].click();
+            }
+        }
     }
-
 }, 1000);
 
 // clearInterval(interval);
