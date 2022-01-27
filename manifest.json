@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Twitch - Auto Channel Points",
+    "name": "Twitch - Automatically Collect Channel Points",
     "description": "Automatically collects Twitch.tv channel points",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Arnout Pullen",
     "content_scripts": [{
         "js": [
