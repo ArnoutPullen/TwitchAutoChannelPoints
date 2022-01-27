@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Twitch - Auto Channel Points",
-    "description": "Automatically collects Twitch.tv channel points, without you having to do anything. This way you can collect a lot of points for your favourite streamer(s)!",
+    "description": "Automatically collects Twitch.tv channel points",
     "version": "1.0.2",
     "author": "Arnout Pullen",
     "content_scripts": [{
